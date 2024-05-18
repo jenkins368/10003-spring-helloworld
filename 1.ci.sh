@@ -5,6 +5,7 @@ export PROJECT_NAME="${CMD_PATH##*/}"
 echo $PROJECT_NAME
 cd $CMD_PATH
 ls -al
+cd demo
 echo "hello world"
 
 
